@@ -73,38 +73,66 @@ def load_checkpoint_into_model(model: FairLoRAModel, ckpt_path: Path, device: Op
 
 def write_model_card(adapter_dir: Path, repo_id: str, base_model_name: str, adapter_name: str, metrics: Optional[Dict[str, Any]] = None):
     adapter_dir.mkdir(parents=True, exist_ok=True)
-    # Use a regular (non-f) triple-quoted string and format placeholders to avoid f-string brace issues
+    metrics = metrics or {}
+    # Extract common metrics if present
+    min_fair = metrics.get("min_fairness_score")
+    max_auc = metrics.get("max_auc")
+    max_pr_auc = metrics.get("max_pr_auc")
+    max_acc = metrics.get("max_acc_thr_0_5")
+    fairness_report = metrics.get("fairness_report")
+
+    # YAML front matter for Hub rendering
+    front_matter = """---
+tags:
+  - lora
+  - peft
+  - fairness
+  - resume-matching
+  - retrieval
+  - sentence-similarity
+library_name: peft
+base_model: {base_model}
+pipeline_tag: sentence-similarity
+language:
+  - en
+---
+""".format(base_model=base_model_name)
+
+    # Richer model card with sections
     card_template = """
-# {repo_id}
+{front_matter}
+# {title}
 
 Fairness-aware LoRA adapter for resume–job matching built on top of `{base_model_name}`.
 
 This adapter was trained with adversarial debiasing and multi-task objectives to reduce group disparities while maintaining utility.
 
-## Usage
+## Model Summary
+- Base model: `{base_model_name}`
+- Adapter type: LoRA (PEFT)
+- Task: Resume–job text similarity (cosine over mean-pooled, L2-normalized embeddings; optional sigmoid for probability)
+- Intended audience: Researchers and practitioners exploring fairness-aware matching
+
+## Quick Start
 
 ```python
 from transformers import AutoTokenizer, AutoModel
 from peft import PeftModel
+import torch, torch.nn.functional as F
 
 BASE = "{base_model_name}"
-ADAPTER = "{repo_id}"
+ADAPTER = "{adapter_or_repo}"  # replace with your Hub repo id or local path
 
 tokenizer = AutoTokenizer.from_pretrained(BASE)
 base_model = AutoModel.from_pretrained(BASE)
 model = PeftModel.from_pretrained(base_model, ADAPTER)
 model.eval()
 
-# Encode two texts and compute cosine
-import torch
-import torch.nn.functional as F
-
-def encode(text):
+def encode(text: str):
     enc = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=256)
     with torch.no_grad():
         out = model(**enc)
-        hidden = out.last_hidden_state
-        emb = F.normalize(hidden.mean(dim=1), p=2, dim=1)
+        emb = F.normalize(out.last_hidden_state.mean(dim=1), p=2, dim=1)
     return emb
 
 r = "Software engineer with Python experience."
@@ -114,46 +142,97 @@ prob = torch.sigmoid(torch.tensor(cos)).item()
 print({{"cosine": cos, "prob": prob}})
 ```
 
-## Training notes
-- Base model: `{base_model_name}`
-- Technique: LoRA + adversarial debiasing + multi-task attribute prediction
-- Objective: Lower demographic parity / equalized odds gaps while preserving accuracy/AUC
+## Training & Data (overview)
+- Approach: LoRA fine-tuning with adversarial debiasing + multi-task attribute prediction.
+- See repository for data preparation pipelines under `data/processed/` and training code in `src/fair_trainer.py`.
 
-## Metrics (summary)
-{metrics_block}
+## Evaluation (high level)
+Key utility and fairness metrics (if available in `models/fair_adversarial/epoch_metrics.csv` and reports):
 
-## License
-- Please ensure the license of the base model `{base_model_name}` allows derivative adapters.
-- Provide your dataset and usage terms accordingly.
+| Metric | Value |
+|---|---|
+| Max AUC | {max_auc_str} |
+| Max PR-AUC | {max_pr_auc_str} |
+| Max Acc@thr=0.5 | {max_acc_str} |
+| Min Fairness Score (lower is better) | {min_fair_str} |
+
+Additional fairness and consistency analyses (when available):
+- Demographic Parity gap at fixed acceptance rate
+- Top-K exposure per job
+- Local consistency (nearest-neighbor stability)
+- Counterfactual shift and flip rate
+
+See `notebooks/05_scoring_and_counterfactual_eval.ipynb` for the full evaluation and plots.
+
+{fairness_block}
+
+## Intended Use & Limitations
+Intended for research and educational use in fairness-aware matching. Not a substitute for human oversight in hiring decisions.
+
+Limitations:
+- Residual bias may persist; results depend on data coverage and definitions of fairness.
+- Thresholds on cosine/sigmoid affect selection rates and fairness gaps.
+- The adapter specializes the base model for this domain and may not generalize to unrelated tasks.
+
+## How to Cite / Acknowledge
+Please cite this repository and the base model `{base_model_name}` if you use this adapter in your work.
+
+## License & Usage
+- Ensure the license of `{base_model_name}` permits derivative adapters for your use case.
+- Review any dataset terms relevant to your deployment context.
 """
-    metrics_block = json.dumps(metrics or {}, indent=2)
+
+    def fmt(v):
+        return "—" if v is None else (f"{v:.6f}" if isinstance(v, float) else str(v))
+
+    fairness_block = ""
+    if isinstance(fairness_report, dict) and fairness_report:
+        try:
+            fairness_block = "\n### Fairness report (excerpt)\n\n```json\n" + json.dumps(fairness_report, indent=2) + "\n```\n"
+        except Exception:
+            fairness_block = "\n### Fairness report (available)\n\nSee reports in the repository for details.\n"
+
     card = card_template.format(
-        repo_id=repo_id,
+        front_matter=front_matter,
+        title=repo_id or adapter_name,
         base_model_name=base_model_name,
-        metrics_block=metrics_block,
+        adapter_or_repo=repo_id or adapter_name,
+        max_auc_str=fmt(max_auc),
+        max_pr_auc_str=fmt(max_pr_auc),
+        max_acc_str=fmt(max_acc),
+        min_fair_str=fmt(min_fair),
+        fairness_block=fairness_block,
     )
+
     (adapter_dir / "README.md").write_text(card.strip() + "\n", encoding="utf-8")
 
 
 def maybe_collect_metrics(csv_path: Path) -> dict:
-    if not csv_path.exists():
-        return {}
-    import pandas as pd
-    try:
-        df = pd.read_csv(csv_path)
-        out = {}
-        # Best fairness (min) and best AUC (max)
-        if 'fairness_score' in df.columns:
-            out['min_fairness_score'] = float(df['fairness_score'].min())
-        if 'val_auc' in df.columns:
-            out['max_auc'] = float(df['val_auc'].max())
-        if 'val_pr_auc' in df.columns:
-            out['max_pr_auc'] = float(df['val_pr_auc'].max())
-        if 'acc_thr_0_5' in df.columns:
-            out['max_acc_thr_0_5'] = float(df['acc_thr_0_5'].max())
-        return out
-    except Exception:
-        return {}
+    out: Dict[str, Any] = {}
+    # CSV metrics
+    if csv_path.exists():
+        import pandas as pd
+        try:
+            df = pd.read_csv(csv_path)
+            if 'fairness_score' in df.columns:
+                out['min_fairness_score'] = float(df['fairness_score'].min())
+            if 'val_auc' in df.columns:
+                out['max_auc'] = float(df['val_auc'].max())
+            if 'val_pr_auc' in df.columns:
+                out['max_pr_auc'] = float(df['val_pr_auc'].max())
+            if 'acc_thr_0_5' in df.columns:
+                out['max_acc_thr_0_5'] = float(df['acc_thr_0_5'].max())
+        except Exception:
+            pass
+
+    # Optional fairness evaluation JSON
+    fairness_json = Path("reports/fairness_metrics/fairness_evaluation.json")
+    if fairness_json.exists():
+        try:
+            out['fairness_report'] = json.loads(fairness_json.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+    return out
 
 
 def push_to_hub(adapter_dir: Path, repo_id: str, private: bool = False):
