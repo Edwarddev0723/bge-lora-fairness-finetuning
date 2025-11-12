@@ -1,0 +1,28 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "resume_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "job_description_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_top_school": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "school_category": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

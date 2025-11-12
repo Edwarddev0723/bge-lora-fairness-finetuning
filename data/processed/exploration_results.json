@@ -1,0 +1,25 @@
+{
+  "total_samples": 6241,
+  "school_category_counts": {
+    "non_top_school": 0.7947444319820541,
+    "no_school_mentioned": 0.16487742348982534,
+    "top_school": 0.040378144528120496
+  },
+  "label_counts": {
+    "No Fit": 3143,
+    "Potential Fit": 1556,
+    "Good Fit": 1542
+  },
+  "top_school_ratio": 0.040378144528120496,
+  "match_rate": 0.2493190193879186,
+  "imbalanced_groups": {
+    "top_school": 0.040378144528120496
+  },
+  "columns": [
+    "resume_text",
+    "job_description_text",
+    "label",
+    "is_top_school",
+    "school_category"
+  ]
+}

@@ -1,0 +1,4 @@
+*.pt
+./fair_adversarial
+/models/fair_adversarial
+/src/__pycache__

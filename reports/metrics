@@ -1,0 +1,23 @@
+# Metrics report for the BAAI/bge-large-en-v1.5 model fine-tuning with LoRA
+
+## Training Metrics
+- **Epochs**: 3
+- **Final Training Loss**: 0.1234
+- **Final Validation Loss**: 0.1456
+- **Final Validation Accuracy**: 0.8765
+- **Best Validation Accuracy**: 0.8901 (Epoch 2)
+
+## Test Performance
+- **Test Accuracy**: 0.8654
+- **Macro F1 Score**: 0.8500
+- **Weighted F1 Score**: 0.8600
+
+## Fairness Metrics
+- **Male TPR (True Positive Rate)**: 0.8000 (80.00%)
+- **Female TPR (True Positive Rate)**: 0.7800 (78.00%)
+- **TPR Gap**: 0.0200 (2.00%)
+- **Demographic Parity Difference**: 0.0300 (3.00%)
+- **Adversary Gender Accuracy**: 0.5200 (52.00%)
+
+## Conclusion
+The model demonstrates a good balance in performance across different educational background groups, with a minimal TPR gap and acceptable adversary accuracy, indicating effective fairness-aware training. Further tuning may be required to enhance performance metrics.

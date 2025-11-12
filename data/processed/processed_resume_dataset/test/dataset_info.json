@@ -1,0 +1,64 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "resume-job-description-fit",
+  "dataset_size": 68651154,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/cnamuangtoun/resume-job-description-fit@08978e21714984bb417547d2c0f9b477f5298163/train.csv": {
+      "num_bytes": 53437783,
+      "checksum": null
+    },
+    "hf://datasets/cnamuangtoun/resume-job-description-fit@08978e21714984bb417547d2c0f9b477f5298163/test.csv": {
+      "num_bytes": 15178234,
+      "checksum": null
+    }
+  },
+  "download_size": 68616017,
+  "features": {
+    "resume_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "job_description_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_top_school": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "school_category": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 137267171,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 53465449,
+      "num_examples": 6241,
+      "dataset_name": "resume-job-description-fit"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 15185705,
+      "num_examples": 1759,
+      "dataset_name": "resume-job-description-fit"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
