@@ -10,3 +10,5 @@ tqdm>=4.62.0
 wandb>=0.12.0
 fairlearn>=0.7.0
 peft>=0.7.0
+sentence-transformers>=3.0.0
+python-ternary>=1.0.8

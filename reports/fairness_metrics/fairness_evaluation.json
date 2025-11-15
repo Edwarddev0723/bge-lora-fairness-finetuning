@@ -1,142 +1,35 @@
 {
-  "school_category": {
-    "fairness_metrics": {
-      "accuracy": 1.0,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "demographic_parity_difference": 0.0,
-      "demographic_parity_ratio": 1.0,
-      "disparate_impact_ratio": 1.0,
-      "equalized_odds_tpr_difference": 0.0,
-      "equalized_odds_fpr_difference": 0.0,
-      "equalized_odds_avg_difference": 0.0,
-      "equal_opportunity_difference": 0.0,
-      "predictive_parity_difference": 0.0,
-      "school_category_0_selection_rate": 0.0,
-      "school_category_0_tpr": 0.0,
-      "school_category_0_fpr": 0.0,
-      "school_category_0_tnr": 0.9999999998630138,
-      "school_category_0_fnr": 0.0,
-      "school_category_0_ppv": 0.0,
-      "school_category_0_npv": 0.9999999998630138,
-      "school_category_0_accuracy": 0.9999999998630138,
-      "school_category_0_count": 73,
-      "school_category_0_tp": 0,
-      "school_category_0_tn": 73,
-      "school_category_0_fp": 0,
-      "school_category_0_fn": 0,
-      "school_category_1_selection_rate": 0.0,
-      "school_category_1_tpr": 0.0,
-      "school_category_1_fpr": 0.0,
-      "school_category_1_tnr": 0.9999999999929677,
-      "school_category_1_fnr": 0.0,
-      "school_category_1_ppv": 0.0,
-      "school_category_1_npv": 0.9999999999929677,
-      "school_category_1_accuracy": 0.9999999999929677,
-      "school_category_1_count": 1422,
-      "school_category_1_tp": 0,
-      "school_category_1_tn": 1422,
-      "school_category_1_fp": 0,
-      "school_category_1_fn": 0,
-      "school_category_2_selection_rate": 0.0,
-      "school_category_2_tpr": 0.0,
-      "school_category_2_fpr": 0.0,
-      "school_category_2_tnr": 0.9999999999621212,
-      "school_category_2_fnr": 0.0,
-      "school_category_2_ppv": 0.0,
-      "school_category_2_npv": 0.9999999999621212,
-      "school_category_2_accuracy": 0.9999999999621212,
-      "school_category_2_count": 264,
-      "school_category_2_tp": 0,
-      "school_category_2_tn": 264,
-      "school_category_2_fp": 0,
-      "school_category_2_fn": 0,
-      "overall_fairness_score": 0.0
+  "baseline": {
+    "dp_diff": {
+      "is_top_school": 0.022535321475554954,
+      "school_category": 0.10642414860681113
     },
-    "disparate_impact_ratio": 1.0,
-    "group_performance": {
-      "0": {
-        "count": 73,
-        "accuracy": 1.0,
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
-      },
-      "1": {
-        "count": 1422,
-        "accuracy": 1.0,
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
-      },
-      "2": {
-        "count": 264,
-        "accuracy": 1.0,
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
-      }
-    }
+    "exposure_bias": {
+      "is_top_school": 0.3854166666666667,
+      "school_category": 0.13541666666666669
+    },
+    "cf_mean_shift": 0.015915607104166667
   },
-  "is_top_school": {
-    "fairness_metrics": {
-      "accuracy": 1.0,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "demographic_parity_difference": 0.0,
-      "demographic_parity_ratio": 1.0,
-      "disparate_impact_ratio": 1.0,
-      "equalized_odds_tpr_difference": 0.0,
-      "equalized_odds_fpr_difference": 0.0,
-      "equalized_odds_avg_difference": 0.0,
-      "equal_opportunity_difference": 0.0,
-      "predictive_parity_difference": 0.0,
-      "is_top_school_0_selection_rate": 0.0,
-      "is_top_school_0_tpr": 0.0,
-      "is_top_school_0_fpr": 0.0,
-      "is_top_school_0_tnr": 0.9999999999940689,
-      "is_top_school_0_fnr": 0.0,
-      "is_top_school_0_ppv": 0.0,
-      "is_top_school_0_npv": 0.9999999999940689,
-      "is_top_school_0_accuracy": 0.9999999999940689,
-      "is_top_school_0_count": 1686,
-      "is_top_school_0_tp": 0,
-      "is_top_school_0_tn": 1686,
-      "is_top_school_0_fp": 0,
-      "is_top_school_0_fn": 0,
-      "is_top_school_1_selection_rate": 0.0,
-      "is_top_school_1_tpr": 0.0,
-      "is_top_school_1_fpr": 0.0,
-      "is_top_school_1_tnr": 0.9999999998630138,
-      "is_top_school_1_fnr": 0.0,
-      "is_top_school_1_ppv": 0.0,
-      "is_top_school_1_npv": 0.9999999998630138,
-      "is_top_school_1_accuracy": 0.9999999998630138,
-      "is_top_school_1_count": 73,
-      "is_top_school_1_tp": 0,
-      "is_top_school_1_tn": 73,
-      "is_top_school_1_fp": 0,
-      "is_top_school_1_fn": 0,
-      "overall_fairness_score": 0.0
+  "fair": {
+    "dp_diff": {
+      "is_top_school": 0.013145604194073707,
+      "school_category": 0.07474635383639824
     },
-    "disparate_impact_ratio": 1.0,
-    "group_performance": {
-      "0": {
-        "count": 1686,
-        "accuracy": 1.0,
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
-      },
-      "1": {
-        "count": 73,
-        "accuracy": 1.0,
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
-      }
-    }
+    "exposure_bias": {
+      "is_top_school": 0.3645833333333333,
+      "school_category": 0.19791666666666666
+    },
+    "cf_mean_shift": 0.005659735572916667
+  },
+  "bert": {
+    "dp_diff": {
+      "is_top_school": 0.000938971728148108,
+      "school_category": 0.0692118318475139
+    },
+    "exposure_bias": {
+      "is_top_school": 0.3333333333333333,
+      "school_category": 0.23958333333333334
+    },
+    "cf_mean_shift": 0.007888038989583334
   }
 }
