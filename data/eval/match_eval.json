@@ -1,0 +1,434 @@
+[
+	{
+		"candidate_id": "C001",
+		"job_id": "J001",
+		"resume_text": "I am a software engineer with over five years of experience building backend systems, cloud-based services, and distributed data pipelines. My work has focused on Python, Go, and Java, mainly within microservice architectures. I have designed REST APIs, optimized database queries, implemented asynchronous processing frameworks, and contributed to system-wide observability using metrics and tracing. I previously worked in a fintech company where reliability, security, and low-latency transaction processing were essential. I regularly collaborated with product managers, data engineers, and QA to deliver features aligned with business needs. I am comfortable owning services end-to-end—from planning and architecture through deployment and monitoring. I am seeking opportunities where I can apply my technical depth while mentoring junior developers and contributing to long-term platform evolution.",
+		"job_text": "We are looking for a backend engineer who can design, implement, and maintain cloud-native microservices. The ideal candidate should have solid experience with Python or Go, familiarity with container orchestration tools such as Kubernetes, and a deep understanding of distributed system principles. In this position, you will work with cross-functional teams to design APIs, improve service performance, and build internal developer tools. You will be responsible for writing high-quality code, participating in code reviews, and contributing to overall system architecture. Our environment handles high traffic and requires low latency, so experience in performance tuning is highly valued. Applicants should be comfortable working autonomously, making architectural decisions, and collaborating closely with product and infrastructure teams.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C002",
+		"job_id": "J002",
+		"resume_text": "I am a marketing specialist with experience in social media strategy, content planning, and brand storytelling. Over the past four years I have worked with consumer brands to design campaigns that increase engagement and drive measurable conversions. My responsibilities included writing long-form and short-form content, coordinating with graphic designers, analyzing social metrics, and developing experimentation roadmaps. I also led influencer partnerships and collaborated with e-commerce teams to ensure consistent messaging across platforms. My background includes campaign reporting, market insight research, and A/B testing on paid channels. I am highly adaptable, detail oriented, and comfortable managing multiple projects under tight deadlines.",
+		"job_text": "Our company is seeking a data-driven product marketing manager to launch new enterprise cloud products. The role requires deep familiarity with B2B positioning, competitive analysis, and technical product messaging. Candidates should be able to translate engineering features into business-oriented value propositions for CIO-level decision makers. Responsibilities include writing solution briefs, designing go-to-market strategies, coordinating with sales teams, driving webinar content, and building industry-specific narratives. The position favors applicants with SaaS experience, strong analytical skills, and the ability to collaborate with product managers and field engineers.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C003",
+		"job_id": "J003",
+		"resume_text": "As a data scientist, I have worked on end-to-end machine learning workflows including feature engineering, model training, hyperparameter tuning, and deployment to production environments. My primary tools are Python, TensorFlow, PyTorch, and scikit-learn. I have built predictive models for customer churn, fraud detection, and recommendation systems. In addition to technical skills, I frequently worked with business stakeholders to translate vague questions into well-defined analytical tasks. My experience also includes dashboard development, A/B test design, and pipeline automation via Airflow. I value reproducibility, rigorous evaluation, and communication of insights in clear, actionable terms.",
+		"job_text": "We are hiring a machine learning engineer to build scalable training pipelines, optimize deep learning models, and collaborate closely with product teams. The role involves productionizing models, improving data preprocessing workflows, and developing real-time inference services. Experience with PyTorch or TensorFlow is essential. The ideal candidate should understand distributed training, CI/CD for ML, and cloud platforms such as AWS. You will also participate in error analysis, monitoring model drift, and refining features in partnership with data engineering. A strong foundation in software engineering is required, as you will contribute to our shared libraries and internal SDK.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C004",
+		"job_id": "J004",
+		"resume_text": "I am a customer support specialist with a background in handling high-volume ticket queues, assisting users through email and live chat, and managing escalations for technical issues. I am familiar with CRM platforms including Zendesk and Freshdesk, and I have experience documenting help center articles and internal troubleshooting guides. In my previous role at an ed-tech startup, I collaborated with engineering to relay product feedback and identify recurring usability problems. I enjoy working directly with customers, providing empathetic communication, and solving problems in a calm and structured way. My responsibilities also included onboarding new team members and creating workflow SOPs.",
+		"job_text": "We are hiring a senior financial analyst responsible for forecasting revenue, performing cost modeling, analyzing quarterly financial statements, and presenting operational insights to leadership. Candidates should have strong Excel skills, understanding of accounting principles, and experience with corporate FP&A. The analyst will collaborate with business units to provide budget support, build scenario models, and create variance analyses. Familiarity with SQL and dashboard tools is a plus. This role requires strong quantitative reasoning, attention to detail, and the ability to produce executive-ready reports.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C005",
+		"job_id": "J005",
+		"resume_text": "I am a UX designer with experience crafting user flows, wireframes, high-fidelity prototypes, and interaction patterns for mobile and web applications. I work closely with PMs and engineers to understand problem constraints, validate assumptions, and iterate quickly through user feedback. I rely on both qualitative and quantitative research to inform design decisions. My tools include Figma, Sketch, Principle, and user testing platforms. Past projects include onboarding redesigns, accessibility improvements, and marketplace platform optimizations. I care deeply about clarity, usability, and consistency across product surfaces, and I enjoy facilitating design reviews and co-creation workshops.",
+		"job_text": "We are seeking a product designer to create intuitive user experiences for our next-generation collaboration suite. Responsibilities include defining information architecture, producing user flows, developing prototypes, and conducting usability testing sessions. The ideal candidate has experience working in cross-functional teams and is comfortable translating ambiguous problem statements into clear design requirements. Familiarity with enterprise product design, accessibility best practices, and responsive design principles is preferred. You will work with PMs, engineers, and researchers to deliver polished and scalable interfaces.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C006",
+		"job_id": "J006",
+		"resume_text": "I am a junior frontend developer experienced with React, HTML, CSS, and TypeScript. I have built modular UI components, collaborated with backend teams to integrate REST APIs, and optimized rendering performance in dynamic dashboards. I enjoy translating design specifications into pixel-perfect interfaces and experimenting with animation libraries to improve overall user experience. My previous internship involved rewriting legacy JavaScript code into modern TypeScript, introducing linting rules, and adding automated unit tests. I am eager to grow into a role where I can contribute to large-scale production systems and learn advanced frontend architecture principles.",
+		"job_text": "Our team is searching for a senior DevOps engineer to manage CI/CD pipelines, maintain infrastructure-as-code using Terraform, oversee Kubernetes clusters, and ensure high system availability. The role includes monitoring system performance, implementing automated scaling strategies, and establishing security best practices. Applicants must be familiar with distributed systems, observability tools, and cloud-native architectures. Experience with Go or Python scripting is preferred. You will collaborate with SREs and platform teams to build reliable deployment workflows.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C007",
+		"job_id": "J007",
+		"resume_text": "I am a data engineer with experience creating ETL pipelines, building data warehouses, and optimizing SQL queries for analytics workloads. My work involves orchestrating pipelines using Airflow, writing transformations in Python, and designing schema models for analytics teams. I have collaborated with data scientists to define feature tables and improve data quality through validation checks. I also implemented monitoring dashboards to track pipeline health and reduce SLA violations. I enjoy solving problems related to scale, reliability, and workflow automation.",
+		"job_text": "We are looking for a senior data engineer who can lead the design of our next-generation data platform. The ideal candidate will have deep experience with distributed storage systems, data modeling, real-time ingestion frameworks, and orchestration tools. Responsibilities include building new pipelines, optimizing performance, enforcing governance standards, and collaborating with analytics and ML teams. Experience with cloud platforms and stream processing technologies is required. Leadership experience and the ability to mentor junior developers is a plus.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C008",
+		"job_id": "J008",
+		"resume_text": "I am a project manager with five years of experience delivering software projects in cross-functional environments. I specialize in sprint planning, stakeholder communication, risk assessment, and dependency management. I have overseen web and mobile application releases, coordinated with engineering leads for resource allocation, and maintained detailed project documentation. My approach combines structured planning with adaptable execution. I emphasize clarity, predictable delivery, and proactive communication with leadership and external partners. I also conduct retrospectives and improve workflows to reduce bottlenecks.",
+		"job_text": "We are seeking a creative video producer experienced in scriptwriting, motion graphics, and managing full video production cycles. The role includes storyboarding, coordinating shoots, editing footage, and collaborating with marketing teams to develop compelling brand narratives. Candidates should be proficient with Adobe Premiere, After Effects, and have a strong understanding of visual storytelling. Experience managing freelance talent and handling multi-project timelines is highly desired.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C009",
+		"job_id": "J009",
+		"resume_text": "I am a cybersecurity analyst with a strong background in threat detection, incident response, and vulnerability assessment. I have experience configuring SIEM tools, writing correlation rules, performing log forensics, and supporting blue-team defense operations. My previous work involved creating runbooks, conducting penetration test follow-ups, and assisting with compliance audits. I enjoy analyzing attack patterns, studying emerging threats, and developing strategies to strengthen organizational security posture. I work closely with IT teams to implement patch management and ensure proper access controls.",
+		"job_text": "We are hiring a security engineer to build and maintain tooling for intrusion detection, endpoint protection, and automated incident response. The role requires strong fundamentals in system security, scripting, and cloud platforms. You will collaborate with analysts to integrate threat intelligence sources, improve triage workflows, and identify misconfigurations across infrastructure. Experience with SIEM systems and knowledge of MITRE ATT&CK are strongly preferred. Additional responsibilities include performing red-team collaboration exercises and strengthening overall security architecture.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C010",
+		"job_id": "J010",
+		"resume_text": "I am a sales account executive with experience managing enterprise software clients, running outbound prospecting campaigns, and negotiating multi-year contracts. I have consistently exceeded quota by building strong relationships with CIOs and IT directors, understanding their technical constraints, and positioning solutions effectively. My responsibilities included pipeline forecasting, CRM hygiene, demo coordination, and supporting RFP responses. I enjoy consultative selling, working across departments, and helping clients adopt technology that delivers measurable ROI.",
+		"job_text": "We are looking for a senior accountant responsible for ledger management, monthly close activities, tax preparation, and financial compliance documentation. Applicants should be proficient in accounting tools, GAAP standards, and internal control processes. The role involves preparing financial statements, collaborating with auditors, and supporting automation initiatives for reconciliation workflows. Strong attention to detail and a structured approach to documentation are required.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C011",
+		"job_id": "J011",
+		"resume_text": "I am a mobile developer specializing in native Android applications using Kotlin and Java. Over the last four years, I contributed to large consumer-facing apps serving millions of users. My experience includes building modular architectures using MVVM, implementing offline caching, integrating payment SDKs, and optimizing rendering performance for low-end devices. I frequently collaborated with designers to refine UI interactions and with backend teams to define API contracts. I also set up CI pipelines for automated UI testing and wrote documentation to help onboard new engineers. I enjoy solving performance bottlenecks, experimenting with new Android libraries, and improving code maintainability.",
+		"job_text": "We are looking for a senior Android engineer experienced with designing and optimizing large-scale mobile applications. The role involves leading feature development, collaborating with design and backend teams, implementing robust architectures, and ensuring the app performs well across a wide range of devices. Candidates should have deep knowledge of Kotlin, coroutines, Jetpack components, and have contributed to complex apps with high user traffic. Additional responsibilities include mentoring junior developers, improving testing coverage, and participating in strategic product discussions.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C012",
+		"job_id": "J012",
+		"resume_text": "I am an operations coordinator with experience managing vendor relationships, handling logistics, and supporting procurement tasks. My responsibilities included tracking inventory, preparing purchase orders, and communicating with suppliers to ensure timely deliveries. I also handled expense reports, supported facility maintenance workflows, and collaborated with finance teams during quarterly audits. My background includes coordinating cross-team schedules, collecting documentation, and maintaining internal databases. I am organized, reliable, and enjoy improving administrative processes to reduce friction across teams.",
+		"job_text": "Our company is searching for a research scientist with expertise in natural language processing, deep learning, and large-scale model training. Candidates should have experience publishing research papers, designing novel model architectures, and running experiments on distributed GPU clusters. The role includes reading recent literature, proposing new research directions, and collaborating with engineering teams to transfer experimental models into production environments. A strong mathematical foundation and proficiency in Python are essential.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C013",
+		"job_id": "J013",
+		"resume_text": "I am a product manager with six years of experience defining roadmaps, gathering requirements, and shipping user-centric features. I have worked with SaaS platforms, B2C mobile apps, and enterprise workflow solutions. My responsibilities included creating PRDs, running discovery interviews, managing stakeholder expectations, analyzing metrics, and refining backlog priorities. I value experimentation and have run multiple A/B tests to validate assumptions before committing engineering resources. I work closely with designers and engineers to ensure alignment between product goals and technical feasibility, and I prioritize clear communication across teams.",
+		"job_text": "We are seeking a senior product manager to lead the strategy for our enterprise analytics platform. The role involves shaping long-term product vision, conducting competitive analysis, working with engineering leadership on architecture decisions, and managing the delivery of complex data workflows. Ideal candidates should understand data warehousing, BI tooling, and large-scale analytics systems. Additional responsibilities include driving customer discovery sessions, presenting product updates to executives, and aligning cross-functional teams around key initiatives.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C014",
+		"job_id": "J014",
+		"resume_text": "I am a graphic designer specializing in brand identity, layout design, and visual communication. I have produced newsletters, brochures, packaging concepts, and social media graphics for both startups and established companies. My tools include Adobe Illustrator, Photoshop, InDesign, and Figma. I enjoy working with marketing teams to refine creative direction and ensure visual consistency across campaigns. I also have experience preparing print-ready files, conducting competitor visual audits, and creating design systems for multiproduct environments. My approach blends creativity with structured design principles.",
+		"job_text": "We are looking for an electrical engineer to join our hardware design team. Responsibilities include creating circuit schematics, performing board layout reviews, conducting signal integrity tests, and collaborating with firmware engineers. Candidates must have a strong understanding of embedded systems, power electronics, and debugging tools such as oscilloscopes and logic analyzers. This role requires clear documentation practices, precision in calculations, and the ability to work closely with manufacturing teams during prototype production.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C015",
+		"job_id": "J015",
+		"resume_text": "I am a full-stack engineer experienced in building customer-facing web applications with React, Node.js, TypeScript, and PostgreSQL. I have developed authentication systems, payment integrations, real-time chat modules, and admin dashboards. My responsibilities included writing unit tests, managing deployments through CI/CD pipelines, and collaborating with designers to refine UX. I have also optimized slow SQL queries, migrated legacy codebases, and introduced caching strategies to improve overall performance. I enjoy solving ambiguous problems, designing scalable architectures, and mentoring junior developers.",
+		"job_text": "We are seeking a senior full-stack engineer to help build high-performance web applications using React, TypeScript, Node.js, and cloud-native technologies. Responsibilities include architecting new product features, improving overall system performance, writing high-quality code, and participating in code reviews. The engineer will work closely with product and design teams to deliver intuitive user experiences. Experience with SQL databases, caching frameworks, and CI/CD automation is essential. Applicants should be comfortable owning services end-to-end and contributing to long-term technical planning.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C016",
+		"job_id": "J016",
+		"resume_text": "I am a business analyst with experience gathering requirements, managing stakeholder expectations, and translating operational needs into structured documentation. I have supported digital transformation initiatives, workflow automation projects, and internal reporting dashboards. My skill set includes writing user stories, process mapping, data cleaning in SQL, and preparing materials for leadership reviews. I collaborate frequently with PMs, engineers, and finance teams to align technical implementation with business strategy. I enjoy breaking down complex processes, identifying inefficiencies, and proposing measurable improvements.",
+		"job_text": "We are hiring a senior HR manager responsible for overseeing talent development, organizational planning, and employee relations. The role involves designing performance review cycles, implementing engagement programs, and advising leadership on workforce strategy. Candidates should have strong communication skills, experience managing HR operations, and familiarity with compliance regulations. This position requires discretion, empathy, and the ability to manage sensitive situations with clarity.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C017",
+		"job_id": "J017",
+		"resume_text": "I am a cloud engineer specializing in AWS infrastructure, automation, and security. My experience includes designing VPC architectures, implementing IAM policies based on least privilege, and building CI/CD pipelines using CodePipeline and Terraform. I have supported scalable services, configured monitoring dashboards using CloudWatch and Prometheus, and conducted cost optimization audits. I enjoy working with distributed systems and implementing guardrails that improve reliability. I collaborate closely with backend teams to integrate deployment workflows and troubleshoot runtime incidents.",
+		"job_text": "We are searching for a backend engineer experienced in building high-throughput APIs, designing microservice architectures, and working with distributed systems. Candidates should understand performance tuning, database optimization, and container orchestration using Kubernetes. Additional responsibilities include implementing observability tooling, writing automated tests, and collaborating with DevOps teams to improve deployment efficiency. Strong experience with Go or Python is preferred.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C018",
+		"job_id": "J018",
+		"resume_text": "I am a financial operations associate with experience managing invoice processing, vendor payouts, and monthly reconciliation tasks. I have supported accounting teams by preparing journal entries, verifying transaction records, and maintaining documentation for audits. My background includes collaboration with procurement teams to ensure contract compliance and working with data analysts to improve reporting workflows. I value accuracy, clarity, and repeatable processes. I am comfortable working with ERP systems, spreadsheets, and internal financial dashboards.",
+		"job_text": "We are hiring a creative content strategist responsible for developing editorial calendars, producing long-form blog posts, and managing cross-channel messaging. The role requires strong writing skills, an understanding of audience segmentation, and the ability to convert technical topics into engaging narratives. Candidates will collaborate with designers, SEO specialists, and industry experts to produce high-impact content. Experience with proofreading, analytics tools, and tone-of-voice guidelines is desired.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C019",
+		"job_id": "J019",
+		"resume_text": "I am a machine learning researcher with experience developing deep neural networks, analyzing model failures, and publishing papers on representation learning. My work focuses on contrastive learning, model robustness, and evaluation of fairness across demographic subgroups. I have built training pipelines for large transformer models, run distributed experiments on multi-GPU clusters, and contributed to tools that automate hyperparameter sweeps. I enjoy reading recent papers, designing reproducible experiments, and mentoring junior researchers. My background blends theoretical understanding with practical engineering skills.",
+		"job_text": "We are recruiting an applied scientist to develop large-scale ML models that power ranking, recommendations, and personalization features. Responsibilities include designing model architectures, running experiments, working with large datasets, and collaborating with engineering teams to deploy models in production. Candidates should have strong knowledge of deep learning frameworks, distributed training, and evaluation methodologies. Experience in fairness, causal inference, or robustness research is a plus.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C020",
+		"job_id": "J020",
+		"resume_text": "I am a social media manager with a background in campaign planning, content production, and community engagement. I have worked with lifestyle brands, producing short-form video content, coordinating with influencers, and analyzing follower growth metrics. My responsibilities included writing captions, preparing reports for marketing leadership, and monitoring sentiment trends. I enjoy creative brainstorming and developing content that resonates with younger audiences. My tools include scheduling platforms, analytics dashboards, and basic video editing software.",
+		"job_text": "We are looking for a logistics planner responsible for coordinating shipment schedules, communicating with carriers, and resolving supply chain disruptions. Candidates should have strong organizational skills, familiarity with shipping documentation, and experience working under time-sensitive conditions. The role involves tracking inventory movement, preparing reports, and ensuring compliance with transportation regulations.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C021",
+		"job_id": "J021",
+		"resume_text": "I am a technical writer with extensive experience producing documentation for APIs, SDKs, and enterprise software platforms. Over the past five years, I have worked closely with engineering teams to translate complex technical behavior into clear and actionable guides. I specialize in writing conceptual overviews, step-by-step tutorials, and troubleshooting references. My work often involves interviewing developers, reviewing design documents, and verifying workflows directly within staging environments. I focus on consistency, accuracy, and clarity so users can quickly understand how to implement and integrate features. I also maintain version-controlled documentation sets and collaborate with product managers to ensure alignment with release cycles.",
+		"job_text": "We are seeking a senior technical writer to lead documentation efforts for our growing developer platform. The role requires creating and maintaining API documentation, writing integration guides, collaborating with product teams to define messaging, and ensuring the clarity of onboarding materials. You will work directly with engineering leads, test features hands-on, and contribute to knowledge bases that support customer adoption. Ideal candidates are comfortable with Git workflows, understand software development lifecycles, and can communicate technical concepts to both beginner and advanced audiences.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C022",
+		"job_id": "J022",
+		"resume_text": "I am a human resources coordinator with a background in recruiting, onboarding, and maintaining employee records. I have supported full-cycle hiring processes including job postings, applicant screening, interview scheduling, and offer preparation. My previous role included maintaining HRIS data accuracy, coordinating benefits enrollment, and assisting employees with policy-related questions. I also contributed to diversity and inclusion initiatives and helped organize employee engagement events. I value confidentiality, empathy, and clear communication, and I enjoy supporting both management and staff in maintaining a healthy workplace culture.",
+		"job_text": "We are looking for a software architect to design large-scale distributed systems that support millions of daily active users. The role involves defining system boundaries, selecting appropriate technologies, performing architectural reviews, and collaborating with engineering teams to ensure robust implementation. Candidates should have deep experience in microservices, cloud platforms, event-driven design, and high-performance data storage systems. This position requires strong communication skills, the ability to think strategically, and experience mentoring engineering teams.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C023",
+		"job_id": "J023",
+		"resume_text": "I am a machine learning engineer focused on recommendation systems, ranking models, and behavioral feature engineering. I have experience working with large-scale datasets, designing feature pipelines, and optimizing training workflows for real-time environments. My work includes building embedding models, tuning gradient boosting systems, and running A/B experiments to measure business impact. I collaborate closely with data engineering teams to maintain data quality, and with product teams to refine objectives that align with user experience. I enjoy experimenting with new architectures, identifying model biases, and improving long-term stability of ML systems.",
+		"job_text": "We are hiring a recommendation systems engineer to improve personalization across our consumer platform. Responsibilities include designing ranking models, collaborating with data teams to curate feature sets, implementing online inference services, and developing evaluation frameworks for long-term user engagement. Candidates should have strong ML fundamentals, experience with large datasets, and familiarity with distributed training. Knowledge of deep learning, model monitoring, and online experimentation is a plus.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C024",
+		"job_id": "J024",
+		"resume_text": "I am an administrative assistant with experience supporting executives, coordinating travel arrangements, and organizing internal meetings. My responsibilities have included preparing reports, maintaining calendars, managing expense submissions, and communicating with internal and external stakeholders. I am skilled at handling confidential information, drafting professional correspondence, and keeping documentation organized. I pride myself on strong time management, proactive problem-solving, and maintaining a positive work environment. I have also helped streamline office processes by introducing standardized templates and improving documentation workflows.",
+		"job_text": "We are searching for a biomedical researcher with experience in experimental design, wet lab techniques, and quantitative analysis. The ideal candidate is familiar with molecular biology protocols, laboratory safety requirements, and scientific writing. Responsibilities include preparing samples, running assays, documenting experimental findings, and collaborating with cross-disciplinary teams. Proficiency in statistical software and experience analyzing biological datasets is highly valued.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C025",
+		"job_id": "J025",
+		"resume_text": "I am a backend engineer with experience building distributed systems, optimizing performance, and designing data-intensive services. I have implemented caching solutions, created asynchronous job queues, integrated third-party APIs, and migrated monolithic applications into microservice architectures. My experience spans both SQL and NoSQL databases, container orchestration, and observability tooling. I enjoy identifying system bottlenecks, designing long-term technical solutions, and working cross-functionally with infrastructure and product teams. I value clean architecture, maintainability, and robust deployment practices.",
+		"job_text": "We are seeking a senior platform engineer to scale our service infrastructure and optimize backend performance. Responsibilities include building high-throughput APIs, improving caching layers, designing microservice architectures, and collaborating with DevOps teams to enhance deployment workflows. Candidates should have experience with distributed systems, strong debugging skills, and familiarity with modern cloud platforms. Experience with Go, Python, or JVM-based languages is preferred.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C026",
+		"job_id": "J026",
+		"resume_text": "I am a copywriter with experience producing advertising scripts, website copy, and campaign messaging for consumer brands. I enjoy concept development, storytelling, and transforming product details into persuasive narratives. I have collaborated with designers, marketing strategists, and product teams to develop cohesive brand voices. My work includes writing landing pages, email sequences, video scripts, and social ads. I am detail-oriented, adaptable, and comfortable iterating through multiple creative directions.",
+		"job_text": "We are searching for a data governance specialist to maintain data quality standards, manage metadata systems, and collaborate with analysts to ensure consistent data definitions. Responsibilities include implementing validation rules, creating documentation for data dictionaries, and supporting regulatory compliance requirements. Candidates should be familiar with SQL, workflow management tools, and data lifecycle best practices. Strong communication skills and attention to detail are essential.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C027",
+		"job_id": "J027",
+		"resume_text": "I am a QA engineer with experience in test automation, regression testing, and designing test plans for web and mobile applications. I have built automated test suites using Selenium, Cypress, and pytest, and I have collaborated closely with developers to identify defects early in the release cycle. My responsibilities included writing detailed bug reports, validating performance metrics, managing test environments, and ensuring release readiness. I value reliability, clear communication, and continuous improvement of testing workflows.",
+		"job_text": "We are seeking a QA automation engineer to expand our automated testing frameworks for high-scale applications. Responsibilities include designing test suites, improving CI pipelines, collaborating with developers to resolve issues, and maintaining test infrastructure. Candidates should have experience with automated testing tools, scripting languages, and building robust testing environments. Familiarity with performance testing and mobile automation is a plus.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C028",
+		"job_id": "J028",
+		"resume_text": "I am a systems administrator with experience managing Linux servers, configuring network environments, and maintaining enterprise authentication systems. I have worked on backup strategies, system monitoring, access control, and security hardening. I am familiar with shell scripting, virtualization platforms, and data center operations. My daily responsibilities included troubleshooting outages, responding to internal tickets, and coordinating with security teams to remediate vulnerabilities. I prioritize reliability, documentation, and systematic problem-solving.",
+		"job_text": "We are looking for a cloud infrastructure engineer to build and maintain tooling for our AWS ecosystem. Responsibilities include deploying services using Terraform, configuring VPC networking, implementing monitoring dashboards, and improving deployment pipelines. Candidates must understand cloud networking, security best practices, and infrastructure automation. Experience with Python or Go is a strong plus.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C029",
+		"job_id": "J029",
+		"resume_text": "I am a customer success manager with experience supporting enterprise software clients, providing onboarding guidance, and helping customers achieve product adoption goals. I have run training sessions, built documentation for best practices, and conducted quarterly business reviews. My work includes analyzing product usage data, preparing recommendations for optimization, and coordinating with engineering teams to address technical issues. I value relationship building, proactive communication, and problem-solving based on a deep understanding of customer needs.",
+		"job_text": "We are searching for a senior recruiter to lead hiring strategies, manage candidate pipelines, conduct interviews, and guide hiring managers through the selection process. Responsibilities include writing job descriptions, coordinating interviews, negotiating offers, and improving recruitment workflows. Candidates should have experience with applicant tracking systems, strong communication skills, and the ability to represent company culture effectively.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C030",
+		"job_id": "J030",
+		"resume_text": "I am a robotics engineer with experience building autonomous navigation systems, tuning control algorithms, and integrating sensor inputs from LiDAR and cameras. I have developed simulation environments for path planning experiments, implemented SLAM algorithms, and collaborated with firmware teams to optimize hardware-software interfaces. My focus is improving stability, reducing latency, and ensuring real-time performance of robotic systems. I enjoy applied research, working with cross-functional teams, and testing prototypes in complex environments.",
+		"job_text": "We are hiring a robotics software engineer to develop motion planning algorithms, build perception pipelines, and integrate high-fidelity simulations. Responsibilities include writing C++ and Python code, working with hardware teams on sensor calibration, and optimizing robotics algorithms for real-time constraints. Candidates should have experience with SLAM, control theory, and robotics middleware frameworks. Familiarity with ROS and embedded Linux systems is preferred.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C101",
+		"job_id": "J201",
+		"resume_text": "I am a mid-level backend engineer with five years of experience building RESTful APIs and background services in Python and Node.js. Most of my work has been on transactional systems for e-commerce platforms, where reliability and clear data flows were more important than ultra-low latency. I am comfortable with relational databases such as PostgreSQL, writing complex queries, and designing schemas that support reporting and analytics. I have some exposure to microservice architectures, especially around user management, order processing, and payment integrations. While I have not led large-scale distributed system design, I frequently collaborated with senior engineers to improve performance and refactor legacy modules. I enjoy reading design docs, suggesting incremental improvements, and maintaining high code quality through tests and code reviews.",
+		"job_text": "We are looking for a backend engineer to join our real-time trading platform team. The role involves implementing and maintaining services that handle live market data, user orders, and risk checks. Candidates should be comfortable working with Python or Node.js, relational databases such as PostgreSQL, and message queues. Ideal applicants have experience in latency-sensitive environments, but we are also open to engineers who have worked on transactional business systems and are eager to learn trading domain concepts. You will collaborate with senior engineers on architecture decisions, gradually take ownership of services, and help improve code quality and observability. Strong fundamentals in debugging, schema design, and API development are required.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "C102",
+		"job_id": "J202",
+		"resume_text": "I am a data scientist with three years of experience building classification and regression models for marketing analytics. My work has largely focused on customer segmentation, uplift modeling, and campaign response prediction. I am proficient in Python, scikit-learn, and basic SQL, and I am comfortable exploring tabular datasets, handling missing values, and trying several off-the-shelf models such as random forests and gradient boosting. I can build dashboards in tools like Tableau and communicate findings to nontechnical stakeholders. I do not yet have hands-on experience productionizing models, managing feature stores, or working with streaming data pipelines, but I am eager to learn more engineering-oriented workflows if given guidance by an experienced ML engineer.",
+		"job_text": "We are hiring an applied machine learning engineer to own end-to-end model development and deployment for personalization features. The role goes beyond exploratory analytics: you will design training pipelines, implement evaluation frameworks, and work closely with platform engineers to ship models into production microservices. We look for candidates who are comfortable with Python, modern ML libraries, and software engineering best practices such as version control, testing, and CI/CD. Experience in marketing analytics or recommendation systems is valuable, but the ability to write robust, maintainable code and debug model behavior in production is even more important. You will collaborate with data scientists who focus on analysis, and you will translate their ideas into production-ready systems.",
+		"label": "non-match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C103",
+		"job_id": "J203",
+		"resume_text": "I am a product manager working on internal data tools and analytics platforms. Over the past four years, I have partnered with data engineers and analysts to define requirements for dashboards, self-service query tools, and data quality monitoring. I am comfortable writing simple SQL, framing questions in terms of metrics, and prioritizing features based on stakeholder interviews. My projects typically involve backoffice users such as finance, operations, and marketing. While I have exposure to customer-facing products, most of my experience has been with internal tooling where usability and reliability matter more than growth experiments. I enjoy translating technical constraints into clear trade-offs for business partners and writing structured PRDs that engineers can implement.",
+		"job_text": "We are seeking a product manager to lead our customer-facing analytics product, which allows external clients to explore usage trends and configure their own reports. The role requires balancing the needs of nontechnical end users with technical constraints around data freshness, query performance, and permission models. Candidates should be comfortable working with design teams on complex interaction patterns, understanding basic SQL and data modeling concepts, and talking to external customers about their workflows. Experience with internal data tools is helpful, but we are specifically looking for someone who has launched features for external B2B or B2C audiences and has a track record of driving adoption and engagement.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C104",
+		"job_id": "J204",
+		"resume_text": "I am a frontend engineer focused on building design-system-driven user interfaces in React. My experience includes developing component libraries, enforcing styling consistency with CSS-in-JS solutions, and collaborating closely with designers through Figma handoffs. I have worked on dashboards, internal admin tools, and a few customer-facing flows such as onboarding and settings pages. Performance tuning has mostly been around reducing bundle size, code splitting, and optimizing rendering for complex tables. I have limited experience integrating real-time data or handling complex offline synchronization. I tend to prefer working on UI polish and accessibility improvements rather than low-level state management or WebSocket protocols, though I can learn them if necessary.",
+		"job_text": "We are looking for a frontend engineer to join our trading interface team and build highly interactive, real-time web dashboards for active traders. You will work with React, TypeScript, and WebSockets to display live price movements, order book depth, and portfolio positions with minimal latency. The role requires not only solid component design skills but also a deep understanding of state management, performance optimization, and graceful handling of connectivity issues. You will collaborate with backend engineers to design efficient data update mechanisms and with designers to ensure usability under high information density. Prior experience with data-heavy dashboards or real-time applications is strongly preferred.",
+		"label": "non-match",
+		"is_top_school": true,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C105",
+		"job_id": "J205",
+		"resume_text": "I am a junior machine learning engineer who transitioned from a software engineering background. I have about two years of experience implementing recommendation models designed by senior data scientists. My work has included building feature extraction pipelines in Python, integrating models into existing microservices, and monitoring basic metrics such as click-through rate and coverage. I am comfortable reading research summaries and reproducing simpler models such as matrix factorization and shallow neural networks, but I do not yet design novel architectures on my own. I write clean code, pay attention to logging and configuration management, and communicate closely with product managers about rollout risks. I am looking for roles where I can get more ownership while still having senior guidance nearby.",
+		"job_text": "We are hiring a lead recommendation scientist to define the long-term direction of our personalization systems. This role is responsible for proposing new modeling approaches, designing experiments, and mentoring a small team of ML engineers. Candidates should be able to read and adapt ideas from recent research, choose appropriate architectures for different surfaces, and set technical strategy in collaboration with engineering leadership. We are looking for someone who already has experience owning end-to-end recommendation projects, from problem framing to production deployment and post-launch analysis.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "C106",
+		"job_id": "J206",
+		"resume_text": "I am a site reliability engineer with a strong focus on observability and incident response. I have been part of an on-call rotation for large distributed systems, where my responsibilities included tuning alerting rules, maintaining dashboards, and leading post-incident reviews. I am comfortable reading service code in Go and Python, but my main contribution has been around improving runbooks, deploying monitoring agents, and helping teams design SLIs and SLOs. I have limited experience with deep performance profiling or kernel-level tuning, but I understand container orchestration concepts and can work closely with platform engineers on capacity planning. I enjoy improving reliability culture and making it easier for product teams to detect and resolve issues.",
+		"job_text": "We are looking for an infrastructure engineer to help build and maintain our Kubernetes-based platform. The role includes designing cluster layouts, managing networking and storage integrations, and optimizing resource usage across services. Candidates should have hands-on experience with container orchestration, infrastructure-as-code tools, and at least one systems programming or scripting language. The work is more focused on platform design and automation than on running on-call rotations, though you will help define SLOs in partnership with SREs. A background that blends observability, capacity planning, and infrastructure design is ideal.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "C107",
+		"job_id": "J207",
+		"resume_text": "I am a data engineer primarily working with batch ETL pipelines on cloud platforms. My typical projects involve ingesting data from third-party APIs and databases, transforming them with Python and SQL, and loading curated tables into a data warehouse. I design schemas with analytics teams in mind and maintain Airflow DAGs for daily updates. I have little exposure to real-time streaming technologies; most of my workloads have daily or hourly SLAs. I care about data quality, create validation checks, and document lineage so analysts understand where numbers come from. While I do not position myself as a streaming expert, I am curious about event-driven architectures and willing to learn Kafka or similar tools.",
+		"job_text": "We are hiring a data platform engineer to unify our batch and streaming infrastructure. The role requires designing scalable pipelines for both real-time and offline use cases, working with Kafka or similar technologies, and building tooling that enables other teams to define their own data products. Candidates should be comfortable with Python or Scala, distributed data processing frameworks, and cloud-native storage solutions. Familiarity with Airflow and data warehousing is helpful, but the focus of this role will be on tying together streaming and batch systems into a coherent platform for downstream ML and analytics.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "C108",
+		"job_id": "J208",
+		"resume_text": "I am a junior product designer with experience in user research, wireframing, and prototyping for SaaS admin interfaces. I have conducted interviews with internal users such as support agents and operations staff, and I am comfortable turning their feedback into updated flows and interaction patterns. I use Figma daily, create design specs for engineers, and participate in usability tests. My visual design skills are decent but not my main strength; I focus more on information hierarchy and task efficiency. I have not yet led a full end-to-end redesign for a core customer-facing product, but I have shipped multiple incremental improvements that simplified complex workflows.",
+		"job_text": "We are looking for a product designer to lead the design of our main customer onboarding experience. This role involves crafting a visually appealing and emotionally engaging journey for new users, combining strong visual storytelling with clear interaction patterns. You will partner with growth marketers on landing pages, experiment with different narrative angles, and design multi-step flows that work across desktop and mobile. Candidates should have a strong sense of visual design, comfort with A/B testing creative variations, and experience launching user-facing experiences that impact sign-up and activation metrics.",
+		"label": "non-match",
+		"is_top_school": true,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "BC001",
+		"job_id": "BJ001",
+		"resume_text": "I am a software engineer with four years of experience working mostly on backend systems for web applications, but I have also touched some frontend features when needed. My primary language is Python, and I have used Django and Flask to build APIs for internal tools and small customer-facing services. In one project I integrated third-party payment gateways and implemented token-based authentication. I am comfortable writing SQL queries, designing basic database schemas, and deploying services using Docker. Recently I started learning about microservices and event-driven design, although most of my production work has been in relatively monolithic architectures with clear modules. I enjoy collaborating with product managers, helping them refine requirements into something that fits within technical constraints, and I am gradually taking more ownership in design discussions.",
+		"job_text": "We are looking for a backend engineer to help us move a legacy monolithic application toward a more modular and service-oriented architecture. The stack is primarily Python-based, with a mix of Django and older frameworks still in production, and we are gradually introducing message queues and asynchronous workers. The ideal candidate has strong Python skills, experience designing and implementing REST APIs, and at least some exposure to concepts like microservices, background jobs, and container-based deployments. You will work closely with a senior architect who leads the migration, but you are expected to contribute actively to design reviews, propose refactoring steps, and help the team balance delivery speed with maintainability. Prior experience with high-scale systems is nice to have but not strictly required.",
+		"label": "match",
+		"is_top_school": false,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "BC002",
+		"job_id": "BJ002",
+		"resume_text": "I am a backend and data-oriented engineer with three years of experience building internal tools, ETL scripts, and ad-hoc APIs. Most of my work has been in Python and a bit of Java, connecting to relational databases, cleaning data, and generating batch reports for operations teams. While I have worked with REST APIs, they were relatively simple and served small internal user groups. I have limited exposure to production-grade monitoring or strict SLAs. In my current role, I often take ambiguous requests from business stakeholders, clarify what data they actually need, and translate that into scripts or small services that run nightly. I am curious about distributed systems and scalability but have not yet owned a truly high-traffic, customer-facing service end-to-end.",
+		"job_text": "We need a senior backend engineer who can take ownership of critical customer-facing services that handle thousands of requests per second. The role involves designing scalable APIs, defining service boundaries, and making architectural decisions that affect multiple product lines. Candidates must be comfortable with performance profiling, advanced caching strategies, and designing systems that remain reliable under unpredictable spikes in traffic. You will work closely with product and infrastructure teams, but you are expected to independently drive technical direction, mentor junior engineers, and make trade-off decisions in an environment where downtime has real revenue impact. Experience in high-scale, latency-sensitive applications is essential for success in this position.",
+		"label": "non-match",
+		"is_top_school": true,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "BC003",
+		"job_id": "BJ003",
+		"resume_text": "I am a data scientist with a strong focus on experimentation, product analytics, and lightweight machine learning models. In my current role, I design A/B tests, help product managers frame hypotheses, and build simple models such as logistic regression or gradient boosting to predict conversion and churn. I am comfortable with Python, SQL, and dashboard tools, and I often join discussions on how to interpret metrics and what follow-up experiments we should run. While I have read about deep learning and recommendation systems, my production work rarely requires large-scale training; instead, we prioritize maintainable, interpretable models that business stakeholders can understand. I have some experience working in cross-functional teams with data engineers and analysts to ensure data quality and instrumentation are reliable for decision-making.",
+		"job_text": "We are hiring a machine learning engineer to work on our recommendation engine and personalization ranking models. The role involves training and evaluating large-scale models that incorporate user behavior signals, item features, and contextual data. You will collaborate with data engineers to ensure training pipelines are robust and with product managers to translate vague goals into measurable objectives. While we value solid foundations in statistics and experimentation, this position requires hands-on experience implementing and deploying machine-learned ranking models in production systems, including online evaluation and monitoring of model performance over time. Familiarity with deep learning frameworks and large-scale training infrastructure is highly desirable.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "BC004",
+		"job_id": "BJ004",
+		"resume_text": "I am a frontend engineer focusing on React, TypeScript, and building dashboards for internal and external users. Over the past three years, I have delivered several complex pages with dynamic filters, tables, and charts that integrate with REST and GraphQL APIs. I care about usability and try to keep components reusable and well-structured. I occasionally collaborate with designers, but in many cases I receive high-level requirements and translate them into actual flows myself. I have basic familiarity with accessibility guidelines, though I would not yet call myself an expert. My exposure to backend is relatively light: I can read API contracts, run mock servers, and debug simple integration issues, but I rarely write server-side code beyond small prototypes. I enjoy working closely with product teams to refine user journeys.",
+		"job_text": "We are looking for a product engineer who is comfortable working across the stack, but who will initially focus on improving our customer-facing analytics dashboard. The current frontend is built with React and TypeScript, and the backend consists of Node.js services that aggregate metrics from multiple data sources. The ideal candidate is strong in modern frontend development and willing to gradually take more responsibility on the backend, such as shaping API design and optimizing data-fetching strategies. You will work closely with product managers and designers to refine interaction patterns, ensure performance is acceptable under heavy data loads, and iteratively improve the overall user experience. Some basic comfort with reading and modifying backend code is important, but we do not expect deep infrastructure expertise on day one.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "BC005",
+		"job_id": "BJ005",
+		"resume_text": "I am a data engineer with experience building batch ETL workflows, maintaining data warehouses, and supporting analytics teams. Most of my pipelines run daily or hourly and are implemented in Python and SQL, orchestrated by Airflow. I have designed dimensional models for reporting and helped analysts resolve data inconsistencies. I am familiar with cloud storage and basic cluster configuration, but real-time streaming has only been a minor part of my work; I implemented a small Kafka consumer once for a pilot project, but it has not been critical to our core business yet. When collaborating with data scientists, I usually focus on ensuring features are computed correctly and efficiently, and I participate in discussions about how to standardize data definitions across teams.",
+		"job_text": "We are seeking a senior data engineer to lead our transition from batch-oriented processing toward a more real-time, event-driven data platform. The role includes designing streaming pipelines around tools such as Kafka or Kinesis, defining data contracts between services, and ensuring that analytical and operational consumers can rely on consistent, low-latency data. While we still have legacy batch workflows, the main expectation is that you drive architectural decisions and guide the team toward a streaming-first mindset. Hands-on experience building, operating, and troubleshooting real-time data systems at scale is critical, as you will be the primary point of contact for these efforts.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "BC006",
+		"job_id": "BJ006",
+		"resume_text": "I am a product manager with experience in B2B SaaS tools for operations and analytics. I have led feature discovery by interviewing users, mapping workflows, and prioritizing improvements that reduce manual steps or clarify key metrics. I write detailed but pragmatic specifications and work closely with design and engineering to ensure we all share the same understanding of the problem. Although I do not write production code, I can read logs, inspect API responses in developer tools, and reason about basic technical trade-offs. I frequently define success metrics for each launch and partner with data teams to track adoption over time. My background includes collaboration with sales and customer success to understand enterprise buyer needs, especially around integration and security requirements.",
+		"job_text": "We need a product manager to lead our internal developer platform, with a focus on improving the experience of engineers who build and deploy services. The role involves understanding developer pain points, prioritizing improvements to CI/CD pipelines, and working with infrastructure teams to design tools that reduce friction in everyday development. While you will not implement infrastructure directly, you should be comfortable discussing topics such as deployment strategies, service observability, and environment configuration. Experience building products primarily for internal technical users, especially developers and SREs, will be highly valuable. You will spend a significant amount of time in conversations with engineering teams across the company rather than external customers.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "B"
+	},
+	{
+		"candidate_id": "BC007",
+		"job_id": "BJ007",
+		"resume_text": "I am a machine learning engineer who has mostly worked on classical models for tabular data, such as gradient boosting and regularized linear models. My projects have included credit risk scoring, lead qualification, and marketing response prediction. I am comfortable with feature engineering, cross-validation, and building robust training pipelines that integrate with existing data warehouses. While I have experimented with deep learning libraries, these have usually been side projects rather than production work. I also spend time with business stakeholders to explain model behavior and discuss possible fairness concerns, such as excluding sensitive attributes or monitoring selection rates across demographic slices. I value interpretability and operational reliability over chasing the newest architectures.",
+		"job_text": "We are looking for an applied scientist to develop and maintain NLP models that power our document understanding and email classification systems. The work involves fine-tuning transformer-based architectures, handling long-context inputs, and optimizing inference latency for online use cases. Candidates should be comfortable with modern deep learning frameworks, handling large text corpora, and performing error analyses specific to language tasks. While experience with fairness and model governance is appreciated, the main requirement is hands-on expertise in training and deploying large language or sequence models in production rather than traditional tabular ML.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "D"
+	},
+	{
+		"candidate_id": "BC008",
+		"job_id": "BJ008",
+		"resume_text": "I am a security engineer with a mixed background in application security and infrastructure hardening. My responsibilities have included performing code reviews for common vulnerabilities, working with developers to implement secure authentication flows, and collaborating with operations teams to tighten network access controls. I am familiar with threat modeling, security monitoring tools, and coordinating incident response when suspicious activity is detected. While I am not a penetration tester by trade, I have run targeted tests on critical components and guided remediation efforts. In cross-functional projects, I focus on balancing risk reduction with realistic constraints on engineering time and product deadlines.",
+		"job_text": "We are hiring an application security engineer to focus on improving the security posture of our customer-facing web and mobile products. The role involves partnering closely with product teams during design and implementation, reviewing code and architecture for vulnerabilities, and building guardrails such as secure libraries and automated checks in CI pipelines. While you will collaborate with infrastructure security and incident response, the majority of your time will be spent working alongside developers to help them ship secure features efficiently. Experience reading and reasoning about code in modern web stacks, along with strong communication skills, is particularly important for this position.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "C"
+	},
+	{
+		"candidate_id": "BC009",
+		"job_id": "BJ009",
+		"resume_text": "I am a customer success manager working mainly with mid-market accounts in a SaaS environment. My day-to-day responsibilities include onboarding new customers, hosting training sessions, and ensuring they understand how to use the product to achieve their goals. I coordinate with support, sales, and product teams when customers encounter issues or request new features. I am comfortable analyzing basic usage dashboards and pulling simple SQL queries when I need to investigate patterns. Most of my accounts are managed remotely, with occasional on-site visits for larger clients. I emphasize long-term relationships and proactive outreach over purely reactive support.",
+		"job_text": "We are looking for an enterprise account manager to own a small portfolio of our largest strategic customers. This role involves complex contract negotiations, coordinating multi-year renewals, and working with executive stakeholders on both sides to align long-term roadmaps. While understanding day-to-day product usage is helpful, the main focus is on commercial strategy, expansion opportunities, and navigating organizational politics within large enterprises. Candidates should have experience handling seven-figure deals, working closely with legal and finance teams, and representing the company at executive-level meetings. The job is less about onboarding and training and more about strategic relationship management and revenue growth.",
+		"label": "non-match",
+		"is_top_school": false,
+		"school_category": "A"
+	},
+	{
+		"candidate_id": "BC010",
+		"job_id": "BJ010",
+		"resume_text": "I am a junior data analyst with two years of experience creating dashboards, writing SQL queries, and supporting business teams with ad-hoc analysis. I am comfortable working with BI tools, building visualizations, and summarizing patterns in a way that non-technical stakeholders can understand. My current work focuses on marketing and user acquisition metrics, such as channel performance, retention, and cohort behavior. I rely on guidance from senior analysts or data scientists when it comes to complex statistical modeling, but I can independently explore data, check for obvious anomalies, and design simple metrics. I am eager to grow into a more advanced analytics or data science role over time.",
+		"job_text": "We are seeking a mid-level data analyst who can independently partner with product teams to define metrics, build dashboards, and drive decision-making. The role involves more than just implementing requests; you are expected to proactively identify opportunities in the data, challenge assumptions, and guide stakeholders toward well-framed questions. You should be comfortable designing basic experiments, understanding confidence intervals, and flagging when results are inconclusive. While we do not require you to build complex predictive models, we do expect a solid grounding in analytical thinking, comfort with SQL, and the ability to translate noisy data into clear, persuasive narratives for product managers and leadership.",
+		"label": "match",
+		"is_top_school": true,
+		"school_category": "B"
+	}
+]
